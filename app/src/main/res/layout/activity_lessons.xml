@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonsActivity">
+
+    <Button
+        android:id="@+id/btn_topic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Topic 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_topic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Topic 2"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic1" />
+
+    <Button
+        android:id="@+id/btn_topic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Topic 3"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic2"
+        app:layout_constraintStart_toStartOf="@+id/btn_topic2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic2" />
+
+    <Button
+        android:id="@+id/btn_topic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TOPIC 4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic3" />
+
+    <Button
+        android:id="@+id/btn_topic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TOPIC 5"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic4"
+        app:layout_constraintStart_toStartOf="@+id/btn_topic4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic4" />
+
+    <Button
+        android:id="@+id/btn_topic6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TOPIC 6"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic5" />
+
+    <Button
+        android:id="@+id/btn_topic7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TOPIC 7"
+        app:layout_constraintEnd_toEndOf="@+id/btn_topic6"
+        app:layout_constraintStart_toStartOf="@+id/btn_topic6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_topic6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

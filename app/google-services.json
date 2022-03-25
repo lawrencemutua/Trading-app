@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "707303370306",
+    "project_id": "trading-app-8b34b",
+    "storage_bucket": "trading-app-8b34b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707303370306:android:a2a5a2cdd0dd18ec9187db",
+        "android_client_info": {
+          "package_name": "com.example.tradingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707303370306-r196ld7qq3cs3s5ph66cmu58u5ufgjpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tradingapp",
+            "certificate_hash": "4da9db5da21470bbb00373f25c36c66b48c551f9"
+          }
+        },
+        {
+          "client_id": "707303370306-gmbbv7tk7p6s4g4cj47p06839srvejju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCapPbB39DZ57oVH9SOyCXI0xqTurRqDmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707303370306-gmbbv7tk7p6s4g4cj47p06839srvejju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

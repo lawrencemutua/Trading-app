@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tradingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TradingApp">
+        <activity
+            android:name=".VIP"
+            android:exported="false" />
+        <activity
+            android:name=".VIPActivity"
+            android:exported="false"
+            android:parentActivityName=".SignalActivity" />
+        <activity
+            android:name=".DailySignalTrends"
+            android:exported="false"
+            android:parentActivityName=".SignalActivity" />
+        <activity
+            android:name=".Topic7"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic6"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic5"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic4"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic3"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic2"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".Topic1"
+            android:exported="false"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".FundamentalAnalysisActivity"
+            android:exported="false"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".SentimentalAnalysisActivity"
+            android:exported="false"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".TechnicalAnalysisActivity"
+            android:exported="false"
+            android:parentActivityName=".NotesActivity" />
+        <activity
+            android:name=".SignalActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LessonsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
